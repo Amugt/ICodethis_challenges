@@ -1,0 +1,102 @@
+body{
+    
+    background-color:#BA0023;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  
+}
+
+.price-boxes{
+    width:50%;
+
+    height: 70vh;
+    background-color:#150E10;
+    margin-top: 50px;
+    box-shadow: 0 0 50px #AC272F;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    gap:20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.price-boxes div{
+    padding: 10px 10px 10px 10px;
+   
+    width: 220px;
+    height: 300px;
+    
+}
+/* .price-boxes div:hover{
+    transform: scale(0.9);
+    box-shadow: 0 8px 50px #AC272F;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+} */
+
+.price-boxes p{
+ font-size: 14px;
+ font-weight: 100;
+}
+.price-boxes li{
+    font-size: 13px;
+    font-weight: 100;
+}
+ul{
+   padding-left:15px;
+}
+
+.price-boxes .basic button{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #BA0023;
+    color: #BA0023;
+    background-color: transparent;
+}
+
+.price-boxes .pro button{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #BA0023;
+    color: white;
+    background-color: #BA0023;
+}
+
+.price-boxes .basic button:hover{
+   
+    border: 1px solid #BA0023;
+    color: white;
+    background-color: #BA0023;
+}
+.price-boxes .pro button:hover{
+   
+    border: 1px solid #BA0023;
+    color: #BA0023;
+    background-color: transparent;
+}
+
+.ground{
+    position: absolute;
+    bottom:80px;
+    z-index: 0;
+    width: 56%;
+    height: 80px;
+    background-color: #A00014;
+    border-radius: 70%;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    -ms-border-radius: 70%;
+    -o-border-radius: 70%;
+}
