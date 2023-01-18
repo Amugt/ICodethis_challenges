@@ -23,6 +23,7 @@ body {
 }
 
 .company-info {
+    position: relative;
     display: flex;
     padding: 25px 50px;
     justify-content: center;
@@ -74,7 +75,7 @@ body {
     font-weight: 100;
     text-decoration: none;
     font-size: 14px;
-    color: lightcoral;
+    color: rgb(238, 100, 100);
 }
 
 .desc {
@@ -109,7 +110,7 @@ body {
 .statistics .jobs {
     font-size: 18px;
     font-weight: bolder;
-    color: lightcoral;
+    color: rgb(238, 100, 100);
 }
 
 .paid-time {
@@ -146,7 +147,7 @@ body {
 
 .progress div {
     height: 4px;
-    background-color: lightcoral;
+    background-color: rgb(238, 100, 100);
     margin-top: 0px;
 }
 
@@ -181,4 +182,23 @@ body {
     font-size: 12px;
     gap: 1px;
     color: gold;
+}
+
+.left {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    font-size: 40px;
+    height: 70px;
+    width: 20px;
+    color: gray;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    font-size: 40px;
+    height: 70px;
+    width: 20px;
 }
